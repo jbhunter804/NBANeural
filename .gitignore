@@ -14,3 +14,9 @@ prediction_app/__pycache__
 prediction_app/2020predictions/
 csvOdds/
 excelOdds/
+.dockerignore
+.ebignore
+.firebaserc
+.gitignore
+app.service
+.ipynb_checkpoints/
