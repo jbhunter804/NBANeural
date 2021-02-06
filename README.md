@@ -31,3 +31,6 @@ Data Collection - Key Choices:
  Performance (as of Feb 5):
  Went live on January 21. After just over 100 games, ROI is ~8%.
  
+It's live at https://www.nbaneural.com
+
+Predictions are posted 15-30 minutes before each game.
