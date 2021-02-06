@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve prediction-app
+After=network.target
+
+[Service]
+User=jasonhunter
+Group=www-data
+WorkingDirectory=~/Desktop/bettingModels/2020NBAmodel/prediction_app/
+Environment="PATH=~/Desktop/bettingModels/2020NBAmodel/prediction_app/2020predictions/bin"
+ExecStart=~/Desktop/bettingModels/2020NBAmodel/prediction_app/2020predictions/bin/uwsgi --ini myproject.ini
+
+[Install]
+WantedBy=multi-user.target
